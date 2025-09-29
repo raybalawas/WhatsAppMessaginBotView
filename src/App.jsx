@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./layout/Navbar.jsx";
 import Home from "./Pages/Home.jsx";
+import NotFoundRedirect from "./Pages/NotFoundRedirect.jsx";
 import DashboardPage from "./Pages/DashboardPage.jsx";
 import CampaignPage from "./Pages/CampaignPage.jsx";
 import StatusPage from "./Pages/StatusPage.jsx";
@@ -11,7 +12,6 @@ import Reports from "./Pages/Reports.jsx";
 import Plans from "./Pages/Plans.jsx";
 import Signup from "./auth/Signup.jsx";
 import Signin from "./auth/Signin.jsx";
-import NotFoundRedirect from "./Pages/NotFoundRedirect.jsx";
 import Footer from "./layout/Footer.jsx";
 {
   /*Admin Panle url's⬇️⬇️⬇️⬇️⬇️⬇️⬇️*/

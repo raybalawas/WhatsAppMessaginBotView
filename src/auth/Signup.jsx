@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./styles/Signup.css";
+import "./styles/signup.css";
 import { SIGNUP_ENDPOINT } from "../../utils/apiConfig.js";
 
 function Signup() {

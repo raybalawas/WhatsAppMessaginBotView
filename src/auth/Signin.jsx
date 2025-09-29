@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { SIGNIN_ENDPOINT } from "../../utils/apiConfig.js";
-import "./styles/Signin.css";
+import "./styles/signin.css";
 
 function Signin() {
   const [formData, setFormData] = useState({

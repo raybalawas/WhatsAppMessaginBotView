@@ -11,7 +11,7 @@ import Reports from "./Pages/Reports.jsx";
 import Plans from "./Pages/Plans.jsx";
 import Signup from "./auth/Signup.jsx";
 import Signin from "./auth/Signin.jsx";
-import NotFoundRedirect from "./pages/NotFoundRedirect.jsx";
+import NotFoundRedirect from "./Pages/NotFoundRedirect.jsx";
 import Footer from "./layout/Footer.jsx";
 {
   /*Admin Panle url's⬇️⬇️⬇️⬇️⬇️⬇️⬇️*/

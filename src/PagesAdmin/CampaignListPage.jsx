@@ -109,7 +109,7 @@ function CampaignListPage() {
       setLoadingCampaignId(camp._id); // Disable this specific button
 
       const res = await axios.post(
-        `http://localhost:3000/api/whatsapp/whatsapp-message-send`,
+        `https://whatsappmessaginbot.onrender.com/api/whatsapp/whatsapp-message-send`,
         {
           userId,
           messageId: camp._id,

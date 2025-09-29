@@ -74,7 +74,7 @@ function CampaignListPage() {
   //   // alert(token);
   //   try {
   //     const res = await axios.post(
-  //       "http://localhost:3000/api/whatsapp/whatsapp-message-send", // Your API endpoint
+  //       "https://whatsappmessaginbot.onrender.com/api/whatsapp/whatsapp-message-send", // Your API endpoint
   //       formData,
   //       {
   //         headers: {

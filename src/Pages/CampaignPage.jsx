@@ -3,7 +3,7 @@ import "./styles/campaign.css";
 import { USER_CAMPAIGN_SUBMIT } from "../../utils/apiConfig.js";
 // import axios from "axios";
 
-export default function CampaignPage() {
+ function CampaignPage() {
   const [loadingCampaign, setLoadingCampaign] = useState(false);
 
   const [step, setStep] = useState(1);
@@ -382,3 +382,5 @@ export default function CampaignPage() {
     </div>
   );
 }
+
+export default CampaignPage;

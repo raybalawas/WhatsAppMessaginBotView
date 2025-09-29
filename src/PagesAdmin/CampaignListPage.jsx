@@ -153,7 +153,7 @@ function CampaignListPage() {
 
     try {
       const res = await axios.delete(
-        "http://localhost:3000/api/users/delete-all-campaigns",
+        "https://whatsappmessaginbot.onrender.com/api/users/delete-all-campaigns",
         {
           headers: {
             Authorization: `Bearer ${token}`,

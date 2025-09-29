@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../pages/styles/Reports.css";
+import "../Pages/styles/Reports.css";
 import {
   USER_DELETE_WITH_CAMPAIGN,
   USER_LIST_ENDPOINT,

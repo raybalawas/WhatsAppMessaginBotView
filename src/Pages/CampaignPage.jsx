@@ -144,7 +144,7 @@ import { USER_CAMPAIGN_SUBMIT } from "../../utils/apiConfig.js";
 
     try {
       const response = await fetch(
-        "https://whatsappmessaginbot.onrender.com/api/users/submit-campaign",
+        "http://localhost:3000/api/users/submit-campaign",
         {
           method: "POST",
           headers: {

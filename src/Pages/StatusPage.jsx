@@ -21,7 +21,7 @@ function StatusPage() {
         }
 
         const res = await axios.get(
-          `https://whatsappmessaginbot.onrender.com/api/users/reports/${userId}`,
+          `http://localhost:3000/api/users/reports/${userId}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

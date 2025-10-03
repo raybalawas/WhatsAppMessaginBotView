@@ -18,7 +18,7 @@ function CampaignListPage() {
 
       try {
         const res = await axios.get(
-          `https://whatsappmessaginbot.onrender.com/api/users/get-camp-by-user-id/${id}`,
+          `http://localhost:3000/api/users/get-camp-by-user-id/${id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -74,7 +74,7 @@ function CampaignListPage() {
   //   // alert(token);
   //   try {
   //     const res = await axios.post(
-  //       "https://whatsappmessaginbot.onrender.com/api/whatsapp/whatsapp-message-send", // Your API endpoint
+  //       "http://whatsappmessaginbot.onrender.com/api/whatsapp/whatsapp-message-send", // Your API endpoint
   //       formData,
   //       {
   //         headers: {
@@ -109,7 +109,7 @@ function CampaignListPage() {
       setLoadingCampaignId(camp._id); // Disable this specific button
 
       const res = await axios.post(
-        `https://whatsappmessaginbot.onrender.com/api/whatsapp/whatsapp-message-send`,
+        `http://localhost:3000/api/whatsapp/whatsapp-message-send`,
         {
           userId,
           messageId: camp._id,
@@ -153,7 +153,7 @@ function CampaignListPage() {
 
     try {
       const res = await axios.delete(
-        "https://whatsappmessaginbot.onrender.com/api/users/delete-all-campaigns",
+        "http://localhost:3000/api/users/delete-all-campaigns",
         {
           headers: {
             Authorization: `Bearer ${token}`,

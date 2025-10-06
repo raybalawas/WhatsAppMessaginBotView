@@ -18,7 +18,7 @@ function CampaignListPage() {
 
       try {
         const res = await axios.get(
-          `http://localhost:3000/api/users/get-camp-by-user-id/${id}`,
+          `https://whatsappmessaginbot-1.onrender.com/api/users/get-camp-by-user-id/${id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -109,7 +109,7 @@ function CampaignListPage() {
       setLoadingCampaignId(camp._id); // Disable this specific button
 
       const res = await axios.post(
-        `http://localhost:3000/api/whatsapp/whatsapp-message-send`,
+        `https://whatsappmessaginbot-1.onrender.com/api/whatsapp/whatsapp-message-send`,
         {
           userId,
           messageId: camp._id,
@@ -153,7 +153,7 @@ function CampaignListPage() {
 
     try {
       const res = await axios.delete(
-        "http://localhost:3000/api/users/delete-all-campaigns",
+        "https://whatsappmessaginbot-1.onrender.com/api/users/delete-all-campaigns",
         {
           headers: {
             Authorization: `Bearer ${token}`,

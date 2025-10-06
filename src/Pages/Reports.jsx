@@ -20,7 +20,7 @@ function Reports() {
         }
 
         const res = await fetch(
-          `http://localhost:3000/api/users/reports/${userId}`,
+          `https://whatsappmessaginbot-1.onrender.com/api/users/reports/${userId}`,
           {
             headers: { Authorization: `Bearer ${token}` },
             method: "GET",

@@ -128,7 +128,7 @@ function CampaignListPage() {
         alert(
           `Campaign launched successfully! Sent ${res.data.sent} messages.`
         );
-        window.location.reload(); // Refresh to show updated status
+        // window.location.reload(); // Refresh to show updated status
         // ✅ Update local state so button gets disabled
         setCampaigns((prev) =>
           prev.map((c) =>
